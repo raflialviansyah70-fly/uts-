@@ -1,0 +1,10 @@
+Butir,Status,Bukti
+1. Sumber data jelas dan sah,Ya,"Dinas Pariwisata Prov. Bali (disparda.baliprov.go.id), Buku Statistik Pariwisata 2025"
+2. Lisensi diperiksa dan penggunaan diizinkan,Sebagian,"Tidak ditemukan lisensi eksplisit; data publik pemerintah, dipakai akademik + sitasi sumber"
+3. Tujuan penggunaan sesuai (akademik),Ya,UTS mata kuliah Data Acquisition & Management
+4. Tidak memuat PII langsung,Ya,Tabel yang dipakai hanya agregat per negara per bulan; sheet tab1ok (PII) tidak dipakai
+5. Quasi-identifier dinilai dan dimitigasi,Ya,Hanya negara + bulan (agregat); tidak ada data individu. Sel kecil dicatat sebagai risiko rendah
+6. Minimisasi data (hanya yang diperlukan),Ya,Hanya sheet tab7ok yang diambil untuk analisis
+7. Kepatuhan robots.txt dan ketentuan situs,Ya,Lihat bukti robots.txt di Soal 4
+"8. Request santun (timeout, UA berisi email, jeda)",Ya,"TIMEOUT=20s, JEDA=2s, User-Agent: UTS-Akuisisi-Data-INSTIKI/1.0 (Ach. Rafli alfian syah; humas@instiki.ac.id.)"
+9. Kredensial tidak ada di notebook; provenance dicatat,Ya,Open-Meteo tanpa API key; docs/provenance.csv

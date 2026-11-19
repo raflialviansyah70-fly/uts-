@@ -1,0 +1,27 @@
+{
+  "judul": "Kedatangan wisman ke Bali per negara per bulan 2025 + cuaca bulanan",
+  "dibuat_oleh": "Ach. Rafli alfian syah",
+  "nim": "2501010048",
+  "tanggal_dibuat": "2026-11-19T02:25:43",
+  "sumber": [
+    "Dinas Pariwisata Prov. Bali, Statistik Pariwisata 2025 (berkas, sheet tab7ok)",
+    "Open-Meteo archive API (cuaca harian Bali 2025, diagregasi bulanan)",
+    "Wikipedia List of districts in Bali (scraping, Soal 4; tidak digabung)"
+  ],
+  "jumlah_baris": 2220,
+  "jumlah_kolom": 9,
+  "kolom": [
+    "kawasan",
+    "negara",
+    "bulan_nama",
+    "kunjungan",
+    "bulan",
+    "suhu_max_rata2_c",
+    "suhu_min_rata2_c",
+    "hujan_total_mm",
+    "hari_hujan"
+  ],
+  "metode_gabung": "left merge pada kunci bulan, validate=m:1",
+  "md5_hasil": "272b323a94dade137eab07b03bc685d2",
+  "catatan": "Data mentah tidak diubah; data wisman bersifat sementara; lihat docs/provenance.csv"
+}
